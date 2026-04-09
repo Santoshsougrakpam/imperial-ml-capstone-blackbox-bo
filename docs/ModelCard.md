@@ -22,7 +22,7 @@ Avoid using the model for high-dimensional input spaces as it suffers from cures
 Initial week1-week3, I spend time tuning the kernel length scale, noise level and 'y' values nornalised/scaled. With different GP settings, I spend the initial weeks to explore the data landscape. 
 Once the model fairly understood data landscape and pick up peak values, I tune the UCB/EI acquisition to search for better high values and climb the data landscape. 
 I use the sensitivity scale graph to look for which feature is contribution significantly as well its sensitivity to the result. For less sensitive features, once I found local best result, I freeze these less sensitive feature to current best value and plot the 2D map on other highly sensitive features to see their correlation.
-Later in 3 or 4 weeks, I start using parallel coordinate plots for features to see the relation instead of plotting 2D plot as pair plot graph becomes less meaning for hinger dimensions.
+Later in 3 or 4 weeks, I start using parallel coordinate plots for features to see the relation instead of plotting 2D plot as pair plot graph becomes less meaningful for hinger dimensions.
 I maintain a record of the weekly submission to keep track of weekly progress. A convergence report and query distance analysis indicates that my weekly results are converging to global optimal value. 
 
 ## Performance
