@@ -30,4 +30,4 @@ The intended use for this datasheet
 ## Distribution and maintenance
  - The datasheet is hosted in github
  - The weekly queries and result are recorded to each function jupyter noted book. This ensure a readable, transparent chronological log of the submission.
- - In addition, the queries and result are stored under /data/<function>/X_week_10.csv, /data/<function>/y_week_10.csv 
+ - In addition, the queries and result are stored under /data/weekly-submission/ 
