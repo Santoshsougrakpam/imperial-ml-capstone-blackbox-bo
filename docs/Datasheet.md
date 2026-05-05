@@ -22,8 +22,9 @@ The dataset is collected iteratively week by week using Gaussian Process Bayesia
 
 ## Preprocessing and uses
  - The logarithmic transform(log(y)) is applied to functions that exhibit exponential range of y values. This allows GP to model relative change in data landscape rather than being overwhelmed with huge magnitude of absolute value. 
- - Input space (X) is normalized to [0,1] hypercube with room to extrapolate up to to 1.5 for one of the function.
-The intended use for this datasheet
+ - Input space (X) is normalized to [0,1] hypercube with room to extrapolate up to 5.0 for Function-5.
+
+### The intended use for this datasheet
  -  Optimisation convergence tracking - track how each week BO result are converging.
  -  Capstone documentation - provide a traceable weekly record of data submission
 

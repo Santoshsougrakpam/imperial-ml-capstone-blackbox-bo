@@ -8,7 +8,7 @@
 **Version:** 2.0
 
 ## Intended use
-The model is intended for Global Optimisation of expensive black box functions where the analytical form of the target function is unknown and budget for evaluation is strictly limited to 10 weekly queries.
+The model is intended for Global Optimisation of expensive black box functions where the analytical form of the target function is unknown and budget for evaluation is strictly limited to 13 weekly queries.
 
 #### Use cases
 - Hyperparameter Tuning: Optimizing machine learning model parameters (e.g. learning rate, regularisation strength etc.)
