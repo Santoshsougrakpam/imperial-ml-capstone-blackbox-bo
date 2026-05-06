@@ -38,6 +38,10 @@ I maintain a record of the weekly submission to keep track of weekly progress. A
 | F7: 6D hyperparamters Tuning | 1.364968        | 2.739184         | Standard GP                 |
 | F8: 8D hyperparamters Tuning | 9.598482        | 9.861678         | Standard GP                 |
 
+**Note on F1 Initial Best(y)**: The initial best value of 0.003606 represents the absolute magnitude of a negative background noise fluctuation.
+Transforming the data via log(abs(y)) was necessary to model the steep gradient of the radiation field, which set this noise artifact as the initial mathematical maximum.
+The 53,995% improvement highlights the algorithm's ability to explore away from local noise boundaries and successfully converge on the radiation peak.
+
 
 ## Assumptions and limitations
 One of main assumption is the query search space is continuous and relative smooth. I assume that points close to each other yields similar output results.

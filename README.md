@@ -49,6 +49,10 @@ After 13 weeks of iterative optimization, the following peak values (y) were ach
 | F7: 6D hyperparameters Tuning | 1.364968        | 2.739184         | 100.7%          |
 | F8: 8D hyperparameters Tuning | 9.598482        | 9.861678         | 2.7%            |
 
+**Note on F1 Initial Best(y)**: The initial best value of 0.003606 represents the absolute magnitude of a negative background noise fluctuation. 
+Transforming the data via log(abs(y)) was necessary to model the steep gradient of the radiation field, which set this noise artifact as the initial mathematical maximum. 
+The 53,995% improvement highlights the algorithm's ability to explore away from local noise boundaries and successfully converge on the radiation peak.
+
 ## Getting Started
 To explore the implementation:
 1. Clone this repository to your local machine.
