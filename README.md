@@ -69,7 +69,9 @@ For a deep dive into the methodology and data handling, please refer to the file
 
 ---
 **Author**:  
-**Santosh Sougrakpam**
+**Santosh Sougrakpam** 
 <br/>Imperial College London ML/AI Capstone 2026
 
 **Contact:** santosh.sougrakpam [at] gmail.com | [LinkedIn Profile](https://www.linkedin.com/in/santosh-sougrakpam-8491071/)
+<br/>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
