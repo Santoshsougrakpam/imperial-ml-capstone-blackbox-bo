@@ -38,20 +38,23 @@ By extending the initial hypercube boundaries, I uncover region of exponential g
 ## Summary of Results
 After 13 weeks of iterative optimization, the following peak values (y) were achieved for each blackbox function:
 
-| Functions                     | Initial Best(y) | Week 13 best (y) | Improvement (%) |
-|:------------------------------|:----------------|:-----------------|:----------------|
-| **F1: Radiation Source**      | 0.0036061       | 1.9507410        | 53,995.6%       |
-| F2: Log-likelihood score      | 0.611205        | 0.757247         | 23.9%           |
-| F3: Drug discovery            | -0.034835       | -0.008595        | 75.3%           |
-| F4: Warehouses storage        | -6.702089       | 0.316342         | 104.7%          |
-| **F5: Chemical process**      | 1088.859618     | 2.145994e+07     | 1,970,764.1%    |
-| F6: Cake recipe               | -0.714265       | -0.303087        | 57.6%           |
-| F7: 6D hyperparameters Tuning | 1.364968        | 2.739184         | 100.7%          |
-| F8: 8D hyperparameters Tuning | 9.598482        | 9.861678         | 2.7%            |
+
+| Functions                     | Rank    | Initial Best(y) | Week 13 best (y) |  Improvement (%) |
+|:------------------------------|:--------|----------------:|-----------------:|-----------------:|
+| 🥇**F1: Radiation Source**    | **1st** |       0.0036061 |        1.9507410 |    **53,995.6%** |
+| 🎖F2: Log-likelihood score    | 10th    |        0.611205 |         0.757247 |            23.9% |
+| F3: Drug discovery            | 24th    |       -0.034835 |        -0.008595 |            75.3% |
+| F4: Warehouses storage        | 35th    |       -6.702089 |         0.316342 |           104.7% |
+| 🥇**F5: Chemical process**    | **1st** |     1088.859618 |     2.145994e+07 | **1,970,764.1%** |
+| F6: Cake recipe               | 30th    |       -0.714265 |        -0.303087 |            57.6% |
+| F7: 6D hyperparameters Tuning | 18th    |        1.364968 |         2.739184 |           100.7% |
+| F8: 8D hyperparameters Tuning | 43rd    |        9.598482 |         9.861678 |             2.7% |
+
 
 **Note on F1 Initial Best(y)**: The initial best value of 0.003606 represents the absolute magnitude of a negative background noise fluctuation. 
 Transforming the data via log(abs(y)) was necessary to model the steep gradient of the radiation field, which set this noise artifact as the initial mathematical maximum. 
 The 53,995% improvement highlights the algorithm's ability to explore away from local noise boundaries and successfully converge on the radiation peak.
+
 
 ## Getting Started
 To explore the implementation:
