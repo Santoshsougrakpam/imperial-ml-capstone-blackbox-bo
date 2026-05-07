@@ -1,4 +1,5 @@
 # Imperial College London - ML/AI Capstone: Blackbox Bayesian Optimization (BBO)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Overview
 This repository contains my work for the final Capstone Project of the Imperial College London ML/AI Professional Certificate. 
@@ -9,7 +10,8 @@ Each function simulates real world tasks where evaluation is expensive like radi
 **Competition:** Over a 13 week period, the competition runs in a blind format. Each week I generate queries from my Bayesian Optimization(BO) model and submit the queries to the competition portal and wait for a result. 
 I had no knowledge of my peer's strategy nor I see the leaderboard to see my progress in the competition.
 
-**Result:** When the leaderboard was revealed after the 13 weeks, my two functions F1 and F5 came out top, proving my strategy is robust and consistent in the cohort.
+**Result:** When the final leaderboard was revealed after 13 weeks, I emerged as the **top-performing participant**, being the only student in the cohort to secure two 1st-place rankings (F1 and F5). 
+This demonstrated that my optimization strategy was robust and consistent across the diverse set of functions.
 
 ### About the Project
 In fields like neural networks hyperparameter tuning, engineering design or drug discovery, we often need to find perfect settings without knowing the exact shape of the "landscape" we are searching. 
@@ -38,11 +40,12 @@ By extending the initial hypercube boundaries, I uncover region of exponential g
 ## Summary of Results
 After 13 weeks of iterative optimization, the following peak values (y) were achieved for each blackbox function:
 
+> **Performance Note:** Highest number of 1st-place rankings in the cohort (2/8 functions).
 
 | Functions                     | Rank    | Initial Best(y) | Week 13 best (y) |  Improvement (%) |
 |:------------------------------|:--------|----------------:|-----------------:|-----------------:|
 | 🥇**F1: Radiation Source**    | **1st** |       0.0036061 |        1.9507410 |    **53,995.6%** |
-| 🎖F2: Log-likelihood score    | 10th    |        0.611205 |         0.757247 |            23.9% |
+| 🎖️F2: Log-likelihood score    | 10th    |        0.611205 |         0.757247 |            23.9% |
 | F3: Drug discovery            | 24th    |       -0.034835 |        -0.008595 |            75.3% |
 | F4: Warehouses storage        | 35th    |       -6.702089 |         0.316342 |           104.7% |
 | 🥇**F5: Chemical process**    | **1st** |     1088.859618 |     2.145994e+07 | **1,970,764.1%** |
