@@ -10,8 +10,7 @@ Each function simulates real world tasks where evaluation is expensive like radi
 **Competition:** Over a 13 week period, the competition runs in a blind format. Each week I generate queries from my Bayesian Optimization(BO) model and submit the queries to the competition portal and wait for a result. 
 I had no knowledge of my peer's strategy nor I see the leaderboard to see my progress in the competition.
 
-**Result:** When the final leaderboard was revealed after 13 weeks, I emerged as the **top-performing participant**, being the only student in the cohort to secure two 1st-place rankings (F1 and F5). 
-This demonstrated that my optimization strategy was robust and consistent across the diverse set of functions.
+**Result:** After 13 weeks, the final leaderboard showed 1st-place finishes on two functions (F1 and F5) — the only student in the cohort to achieve two top rankings. It was a rewarding process, and I was pleased to see the strategy generalise reasonably well across the diverse set of functions.
 
 ### About the Project
 In fields like neural networks hyperparameter tuning, engineering design or drug discovery, we often need to find perfect settings without knowing the exact shape of the "landscape" we are searching. 
@@ -40,7 +39,7 @@ By extending the initial hypercube boundaries, I uncover region of exponential g
 ## Summary of Results
 After 13 weeks of iterative optimization, the following peak values (y) were achieved for each blackbox function:
 
-> **Performance Note:** Highest number of 1st-place rankings in the cohort (2/8 functions).
+> **Performance Note:** Achieved the highest number of 1st-place rankings in the cohort — 1st place on 2 out of 8 functions.
 
 | Functions                     | Rank    | Initial Best(y) | Week 13 best (y) |  Improvement (%) |
 |:------------------------------|:--------|----------------:|-----------------:|-----------------:|
